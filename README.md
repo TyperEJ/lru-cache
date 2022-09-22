@@ -5,7 +5,7 @@ https://en.wikipedia.org/wiki/Cache_replacement_policies#LRU
 ```php
 use EJLin\LruCache\Cache;
 
-$LRUCache = new Cache();
+$LRUCache = new Cache(2);
 
 $LRUCache->put(1,1);
 $LRUCache->put(2,2);
